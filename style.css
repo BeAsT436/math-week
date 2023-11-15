@@ -1,0 +1,61 @@
+body{
+    background-color: aqua;
+}
+h1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(161, 161, 7);
+}
+h2{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h3{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.div1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.div2{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.rebus1{
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.rebus2{
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+.math{
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
