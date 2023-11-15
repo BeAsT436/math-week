@@ -1,6 +1,13 @@
 body{
     background-color: aqua;
 }
+.h{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
 h1{
     flex-direction: row;
     justify-content: center;
