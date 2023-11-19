@@ -1,68 +1,67 @@
-body{
-    background-color: aqua;
-}
-.h{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: black;
-}
-h1{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: rgb(161, 161, 7);
-}
-h2{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
-img {
-    width: 500px;
-    height: 300px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
-h3{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(161, 161, 7);
 }
-.div1{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+.rebus-container,
+.yes-or-no-container,
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.div2{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+.rebus,
+.question {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.rebus1{
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    display: flex;
+
+.image-container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.rebus2{
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
-    display: flex;
+
+.fill-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-.math{
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
-    display: flex;
+
+input,
+button {
+  margin: 5px;
+}
+
+.yes-or-no,
+.div1,
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.question {
+  text-align: center;
+  margin-bottom: 20px;
 }
